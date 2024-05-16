@@ -4,7 +4,6 @@
 # Szükséges rendszer követelmények:
   - GCC 10.0+ (13.2.1 használtam)
   - OpenCV 4.5+ (4.8.1 használtam)
-  - Operációs rendszer Fedora 39-et használtam
 
 # Futtatás: 
   Linuxon:<br>
