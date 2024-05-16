@@ -11,9 +11,11 @@
   ```bash
 g++ -std=c++14 cpp/yolo.cpp cpp/log.cpp -o xy `pkg-config --cflags --libs opencv4`
 ./xy <input_video_filename> <output_video_filename>
+```
 
 vagy ha RTX videókártya van a számítógépben:
 
+```bash
 ./xy <input_video_filename> <output_video_filename> cuda
 ```
 
