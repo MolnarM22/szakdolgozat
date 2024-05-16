@@ -8,8 +8,14 @@
 
 # Futtatás: 
   Linuxon:<br>
-  `g++ -std=c++14 cpp/yolo.cpp cpp/log.cpp -o xy` ``pkg-config --cflags --libs opencv4``<br>
-  `./xy <input_video_filename> <output_video_filename>`    (<cuda> ha RTX videókártya van a számítógépben)<br>
+  ```bash
+g++ -std=c++14 cpp/yolo.cpp cpp/log.cpp -o xy `pkg-config --cflags --libs opencv4`
+./xy <input_video_filename> <output_video_filename>
+
+vagy ha RTX videókártya van a számítógépben:
+
+./xy <input_video_filename> <output_video_filename> cuda
+```
 
 # Mükődése:
  - A program elindítja a GPS-t(ha van), betölti a neurális hálót és megnyitja a videófájlt.
