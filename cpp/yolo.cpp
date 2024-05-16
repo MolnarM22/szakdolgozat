@@ -152,11 +152,11 @@ int main(int argc, char **argv)
    VideoCapture capture(argv[1]);
     if (!capture.isOpened())
     {
-        std::cerr << "Hiba a videofile megnyitasa kozben, biztos letezik ilyen?\n";
+        std::cerr << "Hiba a videofile megnyitasa kozben:\n biztos letezik ilyen?\n lehet rossz a kodolas \n";
         return -1;
     }
 
-    bool is_cuda = argc > 1 && strcmp(argv[3], "cuda") == 0;
+    bool is_cuda = argc > 1 && strcmp(argv[2], "cuda") == 0;
 
     dnn::Net net;
     load_net(net, is_cuda);
