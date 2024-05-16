@@ -12,10 +12,10 @@
   `./xy <input_video_filename> <output_video_filename>`    (<cuda> ha RTX videókártya van a számítógépben)<br>
 
 # Mükődése:
-  A program elindítja a GPS-t(ha van), betölti a neurális hálót és megnyitja a videófájlt.
-  Létrehozz egy log.csv fájlt amiben később menti majd, a GPS szerinti gyomok számát.
-  Framenként keresi a képeken a gyomokat.
-  Ha van gyom akkor elmenti a log.csv-be, és készít egy másolatot a videóról amit elment.
+ - A program elindítja a GPS-t(ha van), betölti a neurális hálót és megnyitja a videófájlt.
+ - Létrehozz egy log.csv fájlt amiben később menti majd, a GPS szerinti gyomok számát.
+ - Framenként keresi a képeken a gyomokat.
+ - Ha van gyom akkor elmenti a log.csv-be, és készít egy másolatot a videóról amit elment.
 
 # Néhány plusz információ:
   A GPS szálkezelve van, és mutex-el védve, hogy ne crasheljen el ha a másik szálon éppen olvasnánk miközben a másik szál írja.
