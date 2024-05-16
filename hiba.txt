@@ -1,6 +1,0 @@
-D:\szakdolgozat\szakdolgozat>g++ -std=c++14 cpp/yolo.cpp cpp/log.cpp -o xy `pkg-config --cflags --libs opencv4`
-g++: error: `pkg-config: No such file or directory
-g++: error: opencv4`: No such file or directory
-g++: error: unrecognized command line option '--cflags'
-g++: error: unrecognized command line option '--libs'
-
