@@ -30,3 +30,7 @@ vagy ha RTX videókártya van a számítógépben:
 
 # Doxygen
   Doxygennel le generáltam hozzá némi dokumentációt.
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1bfe556 (Hibák + magyarazat hozzaadas)

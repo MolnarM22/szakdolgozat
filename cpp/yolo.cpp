@@ -13,6 +13,24 @@ using namespace cv;
 
 bool gpsIsConnected; /*!< Ha USB csatlakoztatva akkor true. */
 
+
+const float INPUT_WIDTH = 640.0; /*!< Kép csatolva a GitHub repoba */
+const float INPUT_HEIGHT = 640.0; /*!< Kép csatolva a GitHub repoba */
+const float SCORE_THRESHOLD = 0.05;
+const float NMS_THRESHOLD = 0.1;
+const float CONFIDENCE_THRESHOLD = 0.06;
+
+/**
+ *  Detektált objektumok tárolása.
+ *
+ */
+ struct Detection
+{
+    int class_id; /*!< Detektált class ID-ja */
+    float confidence; /*!< Detektált objektum pontszáma. */
+    Rect box; /*!< Detektált objektum paraméterei: x,y,w,h*/
+};
+
 /**
  * Betölti a classokat, amiket detektálni tudunk.
  *
@@ -93,7 +111,7 @@ void detect(Mat &image, dnn::Net &net, std::vector<Detection> &output, const std
     
     float *data = (float *)outputs[0].data; 
 
-    const int dimensions = 85; 
+    const int dimensions = 6; 
     const int rows = 25200; 
     
     std::vector<int> class_ids;
