@@ -28,5 +28,5 @@ vagy ha RTX videókártya van a számítógépben:
   A GPS szálkezelve van, és mutex-el védve, hogy ne crasheljen el ha a másik szálon éppen olvasnánk miközben a másik szál írja.
 
 
-#Doxygen
+# Doxygen
   Doxygennel le generáltam hozzá némi dokumentációt.
