@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['checksum_0',['checksum',['../class_g_p_s_data_class.html#ac1f0e8056281059fdeab4f676a83097f',1,'GPSDataClass']]],
-  ['colors_1',['colors',['../yolo_8cpp.html#aa500c63c4a5b2bf32a26a3e735a72b1e',1,'yolo.cpp']]]
+  ['box_0',['box',['../struct_detection.html#a2d7cf64d93c3057c544c0b2277701e30',1,'Detection']]]
 ];

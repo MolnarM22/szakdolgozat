@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Szakdolgozat: cpp/yolo.cpp File Reference</title>
+<title>MyProject: cpp/yolo.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Szakdolgozat
+   <div id="projectname">MyProject
    </div>
   </td>
  </tr>
@@ -74,6 +74,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">yolo.cpp File Reference</div></div>
@@ -90,6 +91,11 @@ $(function() {
 </div>
 <p><a href="yolo_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_detection.html">Detection</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a410c22cbc452ff9af5f2a36f460c3cbb"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="yolo_8cpp.html#a410c22cbc452ff9af5f2a36f460c3cbb">load_class_list</a> ()</td></tr>
@@ -98,7 +104,7 @@ Functions</h2></td></tr>
 <tr class="separator:af2a606508773a71d3b89802097182a55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d74003d2f6cea797f40193e384e2eef"><td class="memItemLeft" align="right" valign="top">Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="yolo_8cpp.html#a9d74003d2f6cea797f40193e384e2eef">format_yolov5</a> (const Mat &amp;source)</td></tr>
 <tr class="separator:a9d74003d2f6cea797f40193e384e2eef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8424288d9828b7bcc284e4a01a894e0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="yolo_8cpp.html#a8424288d9828b7bcc284e4a01a894e0f">detect</a> (Mat &amp;image, dnn::Net &amp;net, std::vector&lt; Detection &gt; &amp;output, const std::vector&lt; std::string &gt; &amp;className)</td></tr>
+<tr class="memitem:a8424288d9828b7bcc284e4a01a894e0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="yolo_8cpp.html#a8424288d9828b7bcc284e4a01a894e0f">detect</a> (Mat &amp;image, dnn::Net &amp;net, std::vector&lt; <a class="el" href="struct_detection.html">Detection</a> &gt; &amp;output, const std::vector&lt; std::string &gt; &amp;className)</td></tr>
 <tr class="separator:a8424288d9828b7bcc284e4a01a894e0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c04138a5bfe5d72780bb7e82a18e627"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="yolo_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a> (int argc, char **argv)</td></tr>
 <tr class="separator:a3c04138a5bfe5d72780bb7e82a18e627"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -107,6 +113,16 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:a272852b9c02d127a270b7b30bcea73a8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="yolo_8cpp.html#a272852b9c02d127a270b7b30bcea73a8">gpsIsConnected</a></td></tr>
 <tr class="separator:a272852b9c02d127a270b7b30bcea73a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81a872ded141468edfa1a503b82cb643"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="yolo_8cpp.html#a81a872ded141468edfa1a503b82cb643">INPUT_WIDTH</a> = 640.0</td></tr>
+<tr class="separator:a81a872ded141468edfa1a503b82cb643"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc6c8157cde3babdbf0f869d7c4fc7bb"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="yolo_8cpp.html#abc6c8157cde3babdbf0f869d7c4fc7bb">INPUT_HEIGHT</a> = 640.0</td></tr>
+<tr class="separator:abc6c8157cde3babdbf0f869d7c4fc7bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab4e1a705cd334319a91ed9a92b31082"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="yolo_8cpp.html#aab4e1a705cd334319a91ed9a92b31082">SCORE_THRESHOLD</a> = 0.05</td></tr>
+<tr class="separator:aab4e1a705cd334319a91ed9a92b31082"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9491bc138343632856cc4d8bee617f31"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="yolo_8cpp.html#a9491bc138343632856cc4d8bee617f31">NMS_THRESHOLD</a> = 0.1</td></tr>
+<tr class="separator:a9491bc138343632856cc4d8bee617f31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b908ab9fc958ed44b8fc0f9ca88cd49"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="yolo_8cpp.html#a5b908ab9fc958ed44b8fc0f9ca88cd49">CONFIDENCE_THRESHOLD</a> = 0.06</td></tr>
+<tr class="separator:a5b908ab9fc958ed44b8fc0f9ca88cd49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa500c63c4a5b2bf32a26a3e735a72b1e"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; Scalar &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="yolo_8cpp.html#aa500c63c4a5b2bf32a26a3e735a72b1e">colors</a> = {Scalar(255, 255, 0), Scalar(0, 255, 0), Scalar(0, 255, 255), Scalar(255, 0, 0)}</td></tr>
 <tr class="separator:aa500c63c4a5b2bf32a26a3e735a72b1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -132,7 +148,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::vector&lt; Detection &gt; &amp;&#160;</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="struct_detection.html">Detection</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>output</em>, </td>
         </tr>
         <tr>
@@ -152,18 +168,18 @@ Variables</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">image</td><td>A bemeneti kép. </td></tr>
-    <tr><td class="paramname">net</td><td>A neurális háló objektuma. </td></tr>
-    <tr><td class="paramname">output</td><td>A detektált objektumok listája. </td></tr>
-    <tr><td class="paramname">className</td><td>Az osztálynevek listája. </td></tr>
+    <tr><td class="paramname">net</td><td>neurális háló </td></tr>
+    <tr><td class="paramname">output</td><td>detekt lista </td></tr>
+    <tr><td class="paramname">className</td><td>osztálynevek listája </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="yolo_8cpp_source.html#l00082">82</a> of file <a class="el" href="yolo_8cpp_source.html">yolo.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="yolo_8cpp_source.html#l00100">100</a> of file <a class="el" href="yolo_8cpp_source.html">yolo.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="yolo_8cpp_source.html#l00065">format_yolov5()</a>.</p>
+<p class="reference">References <a class="el" href="yolo_8cpp_source.html#l00031">Detection::box</a>, <a class="el" href="yolo_8cpp_source.html#l00029">Detection::class_id</a>, <a class="el" href="yolo_8cpp_source.html#l00030">Detection::confidence</a>, <a class="el" href="yolo_8cpp_source.html#l00021">CONFIDENCE_THRESHOLD</a>, <a class="el" href="yolo_8cpp_source.html#l00083">format_yolov5()</a>, <a class="el" href="yolo_8cpp_source.html#l00018">INPUT_HEIGHT</a>, <a class="el" href="yolo_8cpp_source.html#l00017">INPUT_WIDTH</a>, <a class="el" href="yolo_8cpp_source.html#l00020">NMS_THRESHOLD</a>, and <a class="el" href="yolo_8cpp_source.html#l00019">SCORE_THRESHOLD</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="yolo_8cpp_source.html#l00147">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="yolo_8cpp_source.html#l00165">main()</a>.</p>
 
 </div>
 </div>
@@ -191,9 +207,9 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A formázott kép. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="yolo_8cpp_source.html#l00065">65</a> of file <a class="el" href="yolo_8cpp_source.html">yolo.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="yolo_8cpp_source.html#l00083">83</a> of file <a class="el" href="yolo_8cpp_source.html">yolo.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="yolo_8cpp_source.html#l00082">detect()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="yolo_8cpp_source.html#l00100">detect()</a>.</p>
 
 </div>
 </div>
@@ -214,9 +230,9 @@ Variables</h2></td></tr>
 <p>Betölti a classokat, amiket detektálni tudunk.</p>
 <dl class="section return"><dt>Returns</dt><dd>A classok neveit tartalmazó string lista. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="yolo_8cpp_source.html#l00021">21</a> of file <a class="el" href="yolo_8cpp_source.html">yolo.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="yolo_8cpp_source.html#l00039">39</a> of file <a class="el" href="yolo_8cpp_source.html">yolo.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="yolo_8cpp_source.html#l00147">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="yolo_8cpp_source.html#l00165">main()</a>.</p>
 
 </div>
 </div>
@@ -249,14 +265,14 @@ Variables</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">net</td><td>A neurális háló objektuma. </td></tr>
-    <tr><td class="paramname">is_cuda</td><td>Ha igaz, akkor a CUDA használata engedélyezett. </td></tr>
+    <tr><td class="paramname">is_cuda</td><td>Ha igaz, akkor a CUDA magokat használja. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="yolo_8cpp_source.html#l00039">39</a> of file <a class="el" href="yolo_8cpp_source.html">yolo.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="yolo_8cpp_source.html#l00057">57</a> of file <a class="el" href="yolo_8cpp_source.html">yolo.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="yolo_8cpp_source.html#l00147">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="yolo_8cpp_source.html#l00165">main()</a>.</p>
 
 </div>
 </div>
@@ -286,9 +302,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="yolo_8cpp_source.html#l00147">147</a> of file <a class="el" href="yolo_8cpp_source.html">yolo.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="yolo_8cpp_source.html#l00165">165</a> of file <a class="el" href="yolo_8cpp_source.html">yolo.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="yolo_8cpp_source.html#l00057">colors</a>, <a class="el" href="yolo_8cpp_source.html#l00082">detect()</a>, <a class="el" href="log_8cpp_source.html#l00150">gpsCom()</a>, <a class="el" href="log_8cpp_source.html#l00106">gpsInit()</a>, <a class="el" href="yolo_8cpp_source.html#l00014">gpsIsConnected</a>, <a class="el" href="gps_8hpp_source.html#l00014">GPSDataClass::lat</a>, <a class="el" href="yolo_8cpp_source.html#l00021">load_class_list()</a>, <a class="el" href="yolo_8cpp_source.html#l00039">load_net()</a>, <a class="el" href="gps_8hpp_source.html#l00016">GPSDataClass::lon</a>, <a class="el" href="log_8cpp_source.html#l00046">returnGPSData()</a>, <a class="el" href="gps_8hpp_source.html#l00013">GPSDataClass::time</a>, and <a class="el" href="gps_8hpp_source.html#l00012">GPSDataClass::type</a>.</p>
+<p class="reference">References <a class="el" href="yolo_8cpp_source.html#l00075">colors</a>, <a class="el" href="yolo_8cpp_source.html#l00100">detect()</a>, <a class="el" href="log_8cpp_source.html#l00150">gpsCom()</a>, <a class="el" href="log_8cpp_source.html#l00106">gpsInit()</a>, <a class="el" href="yolo_8cpp_source.html#l00014">gpsIsConnected</a>, <a class="el" href="gps_8hpp_source.html#l00014">GPSDataClass::lat</a>, <a class="el" href="yolo_8cpp_source.html#l00039">load_class_list()</a>, <a class="el" href="yolo_8cpp_source.html#l00057">load_net()</a>, <a class="el" href="gps_8hpp_source.html#l00016">GPSDataClass::lon</a>, <a class="el" href="log_8cpp_source.html#l00046">returnGPSData()</a>, <a class="el" href="gps_8hpp_source.html#l00013">GPSDataClass::time</a>, and <a class="el" href="gps_8hpp_source.html#l00012">GPSDataClass::type</a>.</p>
 
 </div>
 </div>
@@ -305,9 +321,27 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="yolo_8cpp_source.html#l00057">57</a> of file <a class="el" href="yolo_8cpp_source.html">yolo.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="yolo_8cpp_source.html#l00075">75</a> of file <a class="el" href="yolo_8cpp_source.html">yolo.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="yolo_8cpp_source.html#l00147">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="yolo_8cpp_source.html#l00165">main()</a>.</p>
+
+</div>
+</div>
+<a id="a5b908ab9fc958ed44b8fc0f9ca88cd49" name="a5b908ab9fc958ed44b8fc0f9ca88cd49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b908ab9fc958ed44b8fc0f9ca88cd49">&#9670;&#160;</a></span>CONFIDENCE_THRESHOLD</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float CONFIDENCE_THRESHOLD = 0.06</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="yolo_8cpp_source.html#l00021">21</a> of file <a class="el" href="yolo_8cpp_source.html">yolo.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="yolo_8cpp_source.html#l00100">detect()</a>.</p>
 
 </div>
 </div>
@@ -326,7 +360,81 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="yolo_8cpp_source.html#l00014">14</a> of file <a class="el" href="yolo_8cpp_source.html">yolo.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="yolo_8cpp_source.html#l00147">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="yolo_8cpp_source.html#l00165">main()</a>.</p>
+
+</div>
+</div>
+<a id="abc6c8157cde3babdbf0f869d7c4fc7bb" name="abc6c8157cde3babdbf0f869d7c4fc7bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc6c8157cde3babdbf0f869d7c4fc7bb">&#9670;&#160;</a></span>INPUT_HEIGHT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float INPUT_HEIGHT = 640.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Kép csatolva a GitHub repoba </p>
+
+<p class="definition">Definition at line <a class="el" href="yolo_8cpp_source.html#l00018">18</a> of file <a class="el" href="yolo_8cpp_source.html">yolo.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="yolo_8cpp_source.html#l00100">detect()</a>.</p>
+
+</div>
+</div>
+<a id="a81a872ded141468edfa1a503b82cb643" name="a81a872ded141468edfa1a503b82cb643"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81a872ded141468edfa1a503b82cb643">&#9670;&#160;</a></span>INPUT_WIDTH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float INPUT_WIDTH = 640.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Kép csatolva a GitHub repoba </p>
+
+<p class="definition">Definition at line <a class="el" href="yolo_8cpp_source.html#l00017">17</a> of file <a class="el" href="yolo_8cpp_source.html">yolo.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="yolo_8cpp_source.html#l00100">detect()</a>.</p>
+
+</div>
+</div>
+<a id="a9491bc138343632856cc4d8bee617f31" name="a9491bc138343632856cc4d8bee617f31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9491bc138343632856cc4d8bee617f31">&#9670;&#160;</a></span>NMS_THRESHOLD</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float NMS_THRESHOLD = 0.1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="yolo_8cpp_source.html#l00020">20</a> of file <a class="el" href="yolo_8cpp_source.html">yolo.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="yolo_8cpp_source.html#l00100">detect()</a>.</p>
+
+</div>
+</div>
+<a id="aab4e1a705cd334319a91ed9a92b31082" name="aab4e1a705cd334319a91ed9a92b31082"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab4e1a705cd334319a91ed9a92b31082">&#9670;&#160;</a></span>SCORE_THRESHOLD</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float SCORE_THRESHOLD = 0.05</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="yolo_8cpp_source.html#l00019">19</a> of file <a class="el" href="yolo_8cpp_source.html">yolo.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="yolo_8cpp_source.html#l00100">detect()</a>.</p>
 
 </div>
 </div>

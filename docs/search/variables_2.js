@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['gpsdata_0',['gpsdata',['../gps_8hpp.html#ac0f69624cebb6c4dcb94495af714a369',1,'gpsdata:&#160;log.cpp'],['../log_8cpp.html#ac0f69624cebb6c4dcb94495af714a369',1,'gpsdata:&#160;log.cpp']]],
-  ['gpsdatamutex_1',['gpsDataMutex',['../log_8cpp.html#a59406c27556eed2c13c5ee65b09f3ef2',1,'log.cpp']]],
-  ['gpsisconnected_2',['gpsIsConnected',['../yolo_8cpp.html#a272852b9c02d127a270b7b30bcea73a8',1,'yolo.cpp']]]
+  ['checksum_0',['checksum',['../class_g_p_s_data_class.html#ac1f0e8056281059fdeab4f676a83097f',1,'GPSDataClass']]],
+  ['class_5fid_1',['class_id',['../struct_detection.html#ad83942fdc49d92291671fccfb59fa0aa',1,'Detection']]],
+  ['colors_2',['colors',['../yolo_8cpp.html#aa500c63c4a5b2bf32a26a3e735a72b1e',1,'yolo.cpp']]],
+  ['confidence_3',['confidence',['../struct_detection.html#ae4c9c2be87297884a96830a72a7fdd8e',1,'Detection']]],
+  ['confidence_5fthreshold_4',['CONFIDENCE_THRESHOLD',['../yolo_8cpp.html#a5b908ab9fc958ed44b8fc0f9ca88cd49',1,'yolo.cpp']]]
 ];

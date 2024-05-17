@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['undulation_0',['undulation',['../class_g_p_s_data_class.html#a26e08763e385bb2cefc6dd30bb2c7e9c',1,'GPSDataClass']]],
-  ['uunits_1',['uunits',['../class_g_p_s_data_class.html#a33ca56217f8ced1d3b482623114749f3',1,'GPSDataClass']]]
+  ['quality_0',['quality',['../class_g_p_s_data_class.html#a50aaf0f2af5e5f8eea5ca0e558a68ca6',1,'GPSDataClass']]]
 ];

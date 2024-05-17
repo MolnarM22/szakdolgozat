@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Szakdolgozat: cpp/gps.hpp File Reference</title>
+<title>MyProject: cpp/gps.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Szakdolgozat
+   <div id="projectname">MyProject
    </div>
   </td>
  </tr>
@@ -118,14 +118,14 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>A GPS kommunikációért felelős függvény.</p>
-<dl class="section return"><dt>Returns</dt><dd>Mindig -1, jelezve, hogy a függvény sosem tér vissza normál módon. </dd></dl>
+<p>A GPS kommunikáció.</p>
+<dl class="section return"><dt>Returns</dt><dd>0 ha minden jó. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="log_8cpp_source.html#l00150">150</a> of file <a class="el" href="log_8cpp_source.html">log.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="log_8cpp_source.html#l00015">DEBUG</a>, <a class="el" href="log_8cpp_source.html#l00016">DEBUG_GPS_GPGGA</a>, <a class="el" href="log_8cpp_source.html#l00063">processGPSData()</a>, <a class="el" href="log_8cpp_source.html#l00099">serial_port</a>, and <a class="el" href="log_8cpp_source.html#l00098">tty_old</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="yolo_8cpp_source.html#l00147">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="yolo_8cpp_source.html#l00165">main()</a>.</p>
 
 </div>
 </div>
@@ -144,13 +144,15 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Inicializálja a GPS-t a soros porton keresztül.</p>
+<dl class="section return"><dt>Returns</dt><dd>True, ha a GPS init sikeres, egyébként false.</dd></dl>
+<p>Inicializálja a GPS-t a soros porton keresztül.</p>
 <dl class="section return"><dt>Returns</dt><dd>True, ha a GPS inicializálása sikeres, egyébként false. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="log_8cpp_source.html#l00106">106</a> of file <a class="el" href="log_8cpp_source.html">log.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="log_8cpp_source.html#l00099">serial_port</a>, <a class="el" href="log_8cpp_source.html#l00097">tty</a>, and <a class="el" href="log_8cpp_source.html#l00098">tty_old</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="yolo_8cpp_source.html#l00147">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="yolo_8cpp_source.html#l00165">main()</a>.</p>
 
 </div>
 </div>
@@ -175,7 +177,7 @@ Variables</h2></td></tr>
 
 <p class="reference">References <a class="el" href="log_8cpp_source.html#l00022">gpsdata</a>, and <a class="el" href="log_8cpp_source.html#l00020">gpsDataMutex</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="yolo_8cpp_source.html#l00147">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="yolo_8cpp_source.html#l00165">main()</a>.</p>
 
 </div>
 </div>

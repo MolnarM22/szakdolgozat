@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['undulation_0',['undulation',['../class_g_p_s_data_class.html#a26e08763e385bb2cefc6dd30bb2c7e9c',1,'GPSDataClass']]],
-  ['uunits_1',['uunits',['../class_g_p_s_data_class.html#a33ca56217f8ced1d3b482623114749f3',1,'GPSDataClass']]]
+  ['readme_2emd_0',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
+  ['returngpsdata_1',['returnGPSData',['../gps_8hpp.html#a3c3e64ec26614ea4171142a6666253c5',1,'returnGPSData():&#160;log.cpp'],['../log_8cpp.html#a3c3e64ec26614ea4171142a6666253c5',1,'returnGPSData():&#160;log.cpp']]]
 ];
