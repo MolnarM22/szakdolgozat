@@ -1,5 +1,5 @@
-# Molnár Martin - W4RO4U
-# Valós idejű gyomfelismerés és számlálás neurális háló segítségével beágyazott Linux rendszeren
+# Molnár Martin - W4RO4U <br>
+ Valós idejű gyomfelismerés és számlálás neurális háló segítségével beágyazott Linux rendszeren<br>
 
 # Szükséges rendszer követelmények:
   - GCC 10.0+ (13.2.1 használtam)
