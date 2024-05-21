@@ -12,14 +12,14 @@
 #include <chrono>
 #include "gps.hpp"
 
-#define DEBUG 1
-#define DEBUG_GPS_GPGGA 1
+#define DEBUG 1  /*!< Hiba kereséshez */
+#define DEBUG_GPS_GPGGA 1  /*!< Ha nincs GPS, akkor 1 értékkel lehet imitálni*/
 
 using namespace std;
 
-mutex gpsDataMutex; // Mutex a GPS adatok védelmére
+mutex gpsDataMutex;  /*!< Szálkezeléshez */
 
-GPSDataClass gpsdata; // Globális változó a GPS adatok tárolására
+GPSDataClass gpsdata;  /*!< GPS adatok tárolásához. */
 
 /**
  * Egy stringet darabol fel a megadott elválasztó alapján.
@@ -94,9 +94,9 @@ void processGPSData(string rawGPSData) {
     gpsDataMutex.unlock(); 
 }
 
-struct termios tty;
-struct termios tty_old;
-int serial_port;
+struct termios tty;  /*!< Terminal vezérlés */
+struct termios tty_old;/*!< Terminal vezérlés */
+int serial_port;  /*!< Serial port száma */
 
 /**
  * Inicializálja a GPS-t a soros porton keresztül.
